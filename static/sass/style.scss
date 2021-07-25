@@ -1,0 +1,15 @@
+@mixin html {
+  background: black;
+  color:white;
+}
+lol{
+.w {
+ @include html()
+}
+}
+* {
+  @include html()
+}
+.s2 {
+  font-size: 19px;
+}
