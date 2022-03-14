@@ -7,7 +7,7 @@ nav li p  {
 	line-height: inherit;
 	white-space: nowrap;
  }
-@use "../sass/forms.scss";
+
 
 
 
@@ -24,11 +24,11 @@ nav {
       	
 	  background-color: #f8f9fa;  
 	 position: fixed;  
-	left: 0;  
+	left: 0; 
+	top: 0px;
        right: 0;  
-top: 5px;  
 height: 40px;
-border: 1px solid rgb($bs-black-rgb);
+border: 1px solid rgb(0,0,0);
 margin-bottom: 80px;
 display: flex; 
 margin-bottom: 80px;
