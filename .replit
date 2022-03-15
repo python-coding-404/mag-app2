@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "npx nodemon -e ejs,scss,css,js,html,png"
+run = "npx nodemon -e ejs,scss,css,js,html,png "

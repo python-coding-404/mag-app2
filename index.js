@@ -17,6 +17,15 @@ app.get('/', (req, res) => {
 
 
 
+
+app.all('/secret', (req, res, next) => {
+  res.send('lol')
+  next() // pass control to the next handler
+})
+app.get('/users/:userId/books/:bookId', (req, res) => {
+  res.send(req.params)
+})
+app.disable('x-powered-by')
 app.get("*", (req, res) => {
  res.redirect("https://404-page.neverforget.repl.co")
 })
